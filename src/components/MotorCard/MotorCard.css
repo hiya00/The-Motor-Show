@@ -1,0 +1,42 @@
+.card-image {
+    width: 100%;
+    height: 250px;
+}
+
+.card-full-container {
+    background-color: whitesmoke;
+    margin: 10px;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 20px #27262c;
+    transition: linear 300ms;
+}
+
+.card-full-container:hover {
+    transform: scale(103%);
+}
+
+.card-text {
+    font-size: 18px;
+    margin: 10px;
+    color: #27262c;
+    padding: 5px;
+}
+
+.hire-btn {
+    cursor: pointer;
+    color: whitesmoke;
+    width: 270px;
+    padding: 5px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-weight: bold;
+    border-style: none;
+    border: 1px solid #27262c;
+    background-color: #27262c;
+}
+
+.hire-btn:hover {
+    background-color: #ef816c;
+    border: none;
+}

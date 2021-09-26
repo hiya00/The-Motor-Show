@@ -1,0 +1,21 @@
+.total-css {
+    color: #f5f5f5;
+    margin-left: 70px;
+    margin-top: 150px;
+}
+
+.total-css h3 {
+    background-color: #ef816c;
+    text-align: center;
+    height: 50px;
+}
+
+.brand-name {
+    margin-top: 20px;
+}
+
+.brand-name th .brand-name h3 {
+    margin-top: 20px;
+    height: 30px;
+    padding: 3px;
+}

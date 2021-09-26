@@ -1,0 +1,93 @@
+ul {
+    display: flex;
+    width: 100%;
+    height: 30vh;
+    margin: auto;
+    max-width: 1000px;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 30px;
+}
+
+li {
+    padding: 1rem 2rem 1.15rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #ebebeb;
+    min-width: 80px;
+    margin: auto;
+    margin-top: 32px;
+}
+
+.head-container {
+    margin-bottom: 20px;
+}
+
+.show-colour {
+    color: #ef816c;
+}
+
+.header-logo {
+    margin-top: 35px;
+    color: white;
+}
+
+.header-title {
+    color: white;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 25px;
+    line-height: 55px;
+}
+
+.budget-bg {
+    background: #ef816c;
+    width: 380px;
+    height: 50px;
+    border-radius: 5px;
+    color: whitesmoke;
+    text-align: end;
+}
+
+.total-budget-text-style {
+    width: 20px;
+    margin: 3px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.main-header-wrapper {
+    margin-left: 25px;
+}
+
+li:hover {
+    background-image: url("https://scottyzen.sirv.com/Images/v/button.png");
+    background-size: 100% 100%;
+    color: #27262c;
+    animation: spring 1000ms ease-out;
+    text-shadow: 0 -1px 0 #ef816c;
+    font-weight: bold;
+}
+
+li:active {
+    transform: translateY(4px);
+}
+
+@keyframes spring {
+    15% {
+        -webkit-transform-origin: center center;
+        -webkit-transform: scale(1.2, 1.1);
+    }
+    40% {
+        -webkit-transform-origin: center center;
+        -webkit-transform: scale(0.95, 0.95);
+    }
+    75% {
+        -webkit-transform-origin: center center;
+        -webkit-transform: scale(1.05, 1);
+    }
+    100% {
+        -webkit-transform-origin: center center;
+        -webkit-transform: scale(1, 1);
+    }
+}
